@@ -3,7 +3,6 @@ import Noticia from './Noticia';
 import PropTypes from 'prop-types';
 
 const Listado = ({news}) => {
-  console.log(news);
   if (news) {
     return (
       <div className="row">
