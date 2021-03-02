@@ -40,7 +40,7 @@ function Noticia({notice}) {
 }
 
 Noticia.propTypes = {
-  news: PropTypes.object.isRequired,
+  notice: PropTypes.object.isRequired,
 };
 
 export default Noticia;

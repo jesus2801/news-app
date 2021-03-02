@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     const consultarApi = async () => {
       const APIKey = '5f7aaaddf7e4464abf423c34d83a7120';
-      const corsSite = 'https://cors-anywhere.herokuapp.com/';
+      const corsSite = 'https://thingproxy.freeboard.io/fetch/';
       const url = `${corsSite}https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${APIKey}`;
 
       const response = await fetch(url);
